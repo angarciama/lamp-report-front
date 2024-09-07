@@ -1,5 +1,9 @@
 <template>
-  <h1>
-    PRUEBA
-  </h1>
+  <div>
+    <EmailForm />
+  </div>
 </template>
+
+<script setup>
+import EmailForm from '~/components/EmailForm.vue'
+</script>
